@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 export MAKEFLAGS="-j$(nproc)"
 
 # WITH_UPX=1

@@ -8,9 +8,9 @@ on:
     - '*'
 
 jobs:
-  build:
-    name: util-linux
-    runs-on: ubuntu-latest
+  build_and_release:
+    name: util-linux-static
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
     steps:
