@@ -11,7 +11,7 @@ if [ -x "$(which apt 2>/dev/null)" ]
     then
         apt update && apt install -y \
             build-essential clang pkg-config autoconf libtool libcap-dev \
-            libncurses-dev upx git gettext bison autopoint
+            libncurses-dev git gettext bison autopoint
 fi
 
 if [ -d build ]
